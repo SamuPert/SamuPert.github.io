@@ -1,0 +1,114 @@
+- id: "distributed-ctf-tool"
+  title: "Distributed CTF Tool"
+  category: "Bachelor's Thesis // Distributed Systems"
+  featured: true
+  objectFit: "diagram"
+  description: "I am excited to share my bachelor's degree thesis, which focuses on designing a distributed system for scheduling and executing exploits and flag submissions in \"Attack and Defense\" CTF competitions. In this era of increasing dependence on digital technologies, cybersecurity has become more important than ever. The thesis explores the challenges of CTF competitions and presents an approach for designing a distributed system that can address these challenges. The impact of the design choices on system performance and availability is also evaluated."
+  image: "/assets/images/hld-distributed-ctf-tool.png"
+  width: 1278
+  height: 672
+  alt: "High-level architecture diagram of the Distributed CTF Tool showing Kubernetes, Knative, RabbitMQ, and TiKV components"
+  link: "https://github.com/SamuPert/distributed-ctf-tool"
+  linkLabel: "Open repo"
+  tags:
+    - "docker"
+    - "kubernetes"
+    - "cassandra"
+    - "serverless"
+    - "tikv"
+    - "event-driven-architecture"
+    - "cri-o"
+    - "knative"
+    - "rook-ceph"
+    - "rabbitmq"
+
+- id: "intro-reverse-engineering"
+  title: "Intro to reverse engineering and software exploitation"
+  category: "CyberChallenge.it 2020 // Security Training"
+  featured: false
+  objectFit: "cover"
+  description: "This is the training material that I used to train the participants of the CyberChallenge.it 2020 contest of the Marche Polytechnic University on reverse engineering and software exploitation."
+  image: "/assets/images/intro-to-reverse-engineering-and-software-exploitation.jpg"
+  width: 640
+  height: 427
+  alt: "Binary code and assembly debugging preview for Intro to reverse engineering and software exploitation training material"
+  link: "https://github.com/SamuPert/intro-to-reverse-engineering-and-software-exploitation"
+  linkLabel: "Open repo"
+  tags:
+    - "reverse-engineering"
+    - "stack-overflow"
+    - "buffer-overflow"
+    - "training-material"
+    - "software-exploitation"
+
+- id: "inshackatis-butchery"
+  title: "InsHackati's Butchery"
+  category: "Security Automation // CTF Tooling"
+  featured: false
+  objectFit: "cover"
+  description: "CTF Attack And Defense tool for automating attacks and sending flags to local competitive server."
+  image: "/assets/images/attack_and_defense.jpg"
+  width: 1280
+  height: 712
+  alt: "Illustration of automated CTF Attack and Defense network traffic for InsHackati's Butchery"
+  link: "https://github.com/SamuPert/InsHackati-s-Butchery"
+  linkLabel: "Open repo"
+  tags:
+    - "python"
+    - "sqlite"
+
+- id: "house-manager"
+  title: "House Manager"
+  category: "Mobile & Serverless // Android & GCP"
+  featured: false
+  objectFit: "contain"
+  description: "Awesome Android application for managing the expenses of a student at home and organizing sports tournaments. Project developed during \"Mobile Programming\" course."
+  image: "/assets/images/house_manager.png"
+  width: 317
+  height: 226
+  alt: "House Manager Android application emblem and student expense management interface"
+  link: "https://github.com/SamuPert/house-manager-app"
+  linkLabel: "Open repo"
+  tags:
+    - "Java"
+    - "Google Cloud Functions"
+    - "Android"
+    - "C#"
+
+- id: "euronet-wifi"
+  title: "Euro.net wifi"
+  category: "Web Production // Custom CMS Theme"
+  featured: false
+  objectFit: "cover"
+  description: "Full redesign of Euro.net website, based on Wordpress CMS. Created a custom wordpress theme, based on business requirements."
+  image: "/assets/images/euronetwifi.it.png"
+  width: 1042
+  height: 701
+  alt: "Screenshot of the redesigned Euro.net wifi commercial website homepage"
+  link: "https://www.euronetwifi.it/"
+  linkLabel: "Open link"
+  tags:
+    - "PHP"
+    - "Wordpress"
+    - "CSS"
+    - "Javascript"
+
+- id: "music-shop"
+  title: "Music Shop"
+  category: "Full-Stack Web // E-Commerce Platform"
+  featured: false
+  objectFit: "screenshot"
+  description: "Multi-user web application for managing and displaying music store items. Project developed during \"Web development\" course."
+  image: "/assets/images/music_shop.png"
+  width: 1366
+  height: 728
+  alt: "Screenshot of the Music Shop web application showing catalog management and storefront"
+  link: "https://github.com/SamuPert/music-shop-app"
+  linkLabel: "Open repo"
+  tags:
+    - "PHP"
+    - "Laravel"
+    - "SCSS"
+    - "Javascript"
+    - "Laravel MIX"
+    - "Bootstrap"

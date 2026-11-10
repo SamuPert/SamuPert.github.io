@@ -1,0 +1,16 @@
+baseURL = "https://samupert.com/"
+languageCode = "en-us"
+title = "Samuele Perticarari — Strategic Cloud Engineer"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+  name = "Samuele Perticarari"
+  monogram = "SP."
+  role = "Strategic Cloud Engineer @ Google Cloud"
+  headline = "I design cloud infrastructures."
+  bioLead = "I'm a Strategic Cloud Engineer @ Google Cloud with experience in cloud infra, migration and networking with coding background. Passion and eagerness to learn are my defining traits."
+  description = "Portfolio of Samuele Perticarari — Strategic Cloud Engineer @ Google Cloud specializing in cloud infrastructure, distributed systems, cloud networking, and cybersecurity."
+  linkedinUrl = "https://www.linkedin.com/in/samuele-perticarari/"
+  linkedinHandle = "Samuele Perticarari"
+  githubUrl = "https://github.com/SamuPert"
+  githubHandle = "SamuPert"
