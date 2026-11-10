@@ -1,12 +1,12 @@
 # samupert.com — Personal Portfolio
 
-Static portfolio website of **Samuele Perticarari** (*Strategic Cloud Engineer @ Google Cloud*), built with [Hugo](https://gohugo.io/), Vanilla CSS Custom Properties, and minimal Vanilla JavaScript.
+Static portfolio website of **Samuele Perticarari** (*Strategic Cloud Engineer at Google Cloud*, specialized in GCP networking and cloud foundations), built with [Hugo](https://gohugo.io/), plain CSS, and JavaScript.
 
-## Architecture & Highlights
+## Stack
 
 - **Static Site Generator**: [Hugo](https://gohugo.io/) (`hugo.toml`, `layouts/`, `data/`, `content/`, `static/`)
-- **Design System**: Swiss Technical Editorial with a **Dual Theme System** (`Dark` default + `Light` mode toggle persisted via `localStorage`)
-- **Zero Framework Bloat**: Pure semantic HTML5, a single Vanilla CSS stylesheet (`static/css/style.css`), and a lightweight theme toggle script (`static/js/theme.js`)
+- **Theming**: Dark (default) and light modes using CSS custom properties, persisted in `localStorage`
+- **Frontend**: Semantic HTML5, `static/css/style.css`, and `static/js/theme.js` with no external runtime dependencies
 - **Primary Contact**: [LinkedIn — Samuele Perticarari](https://www.linkedin.com/in/samuele-perticarari/)
 
 ## Project Structure
@@ -17,17 +17,17 @@ Static portfolio website of **Samuele Perticarari** (*Strategic Cloud Engineer @
 ├── content/
 │   └── _index.md              # Home page frontmatter
 ├── data/
-│   ├── projects.yaml          # 6 selected engineering & security projects
-│   └── skills.yaml            # 3 core technical expertise pillars
+│   ├── projects.yaml          # Project entries
+│   └── skills.yaml            # Technical focus areas
 ├── layouts/
 │   ├── _default/
 │   │   └── baseof.html        # Base HTML5 shell, SEO tags & FOUC-free theme init
 │   └── index.html             # Single-page portfolio template
 └── static/
     ├── CNAME                  # Custom domain configuration (samupert.com)
-    ├── assets/images/         # Project showcase images
+    ├── assets/images/         # Project images
     ├── css/style.css          # Dark/Light theme tokens & responsive styles
-    └── js/theme.js            # Accessible Dark/Light theme controller
+    └── js/theme.js            # Dark/Light theme controller
 ```
 
 ## Local Development & Build
